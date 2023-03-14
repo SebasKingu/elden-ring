@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.ulnav {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.85)
+  }
+
+
+.linav {
+    padding: '10px'
+  }
+
+.anav-active {
+    text-decoration: none;
+    padding: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    color:gold;
+    border-color: gold 
+  }
+
+.anav-inactive {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: white;
+}
+
+.anav-inactive:hover {
+    color: darkkhaki;
+    border-color: darkkhaki
+}
+
