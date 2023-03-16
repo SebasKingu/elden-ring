@@ -8,12 +8,14 @@ body {
     justify-content: space-around;
     padding: 20px 0px 20px 0px;
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.85)
+    background-color:  #151515;
+
   }
 
 
 .linav {
-    padding: '10px'
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: '10px'
   }
 
 .anav-active {
@@ -39,3 +41,25 @@ body {
     border-color: darkkhaki
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.elemento {
+  color: white;
+  margin: 30px 65px;
+  padding: 20px 10px 0px 10px;
+  width: 310px;
+  height: 350px;
+  background-color: #1C1C1C;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 20px 20px 40px  grey;
+}
