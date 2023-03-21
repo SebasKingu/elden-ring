@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px 0px 10px 0px;  
 }
 
 .ulnav {
@@ -63,3 +63,20 @@ body {
   border-color: rgba(0, 0, 0, 0.85);
   box-shadow: 20px 20px 40px  grey;
 }
+
+.pagination {
+  display: flex;
+  width: 10%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pagep {
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color:  #c19d53;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 10px;
+}
+
