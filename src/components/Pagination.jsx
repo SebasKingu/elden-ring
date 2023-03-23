@@ -1,19 +1,14 @@
-import { loaderMun } from "../pages/Municiones"
+import { SigtPag } from "../js/loaders";
 
-const Pagination = ({setMuns}) => {
+const Pagination = ({setMuns,setArmors,section}) => {
     
-    function SigtPag(pag) {
-        loaderMun(pag).then((result)=> {
-            setMuns(result)
-        })
-    }
 
     return (
         <>
             <div className="pagination">
-                <p onClick={()=>SigtPag(0)} className="pagep">1</p>
-                <p onClick={()=>SigtPag(1)} className="pagep">2</p>
-                <p onClick={()=>SigtPag(2)} className="pagep">3</p>
+                <p onClick={()=>SigtPag(0,section,setMuns,setArmors)} className="pagep">1</p>
+                <p onClick={()=>SigtPag(1,section,setMuns,setArmors)} className="pagep">2</p>
+                <p onClick={()=>SigtPag(2,section,setMuns,setArmors)} className="pagep">3</p>
             </div>
         </>
     )

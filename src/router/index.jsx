@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
+import { loaderMun, loaderArmor } from "../js/loaders";
 import Armaduras from "../pages/Armaduras";
-import Municiones, { loaderMun } from "../pages/Municiones";
+import Municiones from "../pages/Municiones";
 
 export const router = createBrowserRouter([
     {
@@ -15,7 +16,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/armaduras',
-                element: <Armaduras />
+                element: <Armaduras />,
+                loader: loaderArmor
             }
         ]
     }
